@@ -132,26 +132,6 @@ public class A_If {
 //		출력문 안에서 문자열("")과 변수를 같이 작성할 경우에는
 //		+ 기호를 사용하여 이음을 표시
 		System.out.println("결과 : " + result);
-		
-//		if문 예제 실습 - 함수 위치 구하기
-		
-		Scanner functionData = new Scanner(System.in);
-		
-		int x = 0;
-		int y = 0;
-		String funcResult;
-		
-		System.out.println("x값을 입력하세요.");
-		x = functionData.nextInt();
-		System.out.println("y값을 입력하세요.");
-		y = functionData.nextInt();
-		
-//		if 조건문 작성
-//		x, y 양수: 제1사분면
-//		x는 음수, y는 양수: 제2사분면
-//		x, y 음수: 제3사분면
-//		x는 양수, y는 음수: 제4사분면
-		
 	}
 
 }
