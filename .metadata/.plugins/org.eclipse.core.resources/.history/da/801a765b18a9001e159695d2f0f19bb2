@@ -1,0 +1,66 @@
+package b_Chapter01;
+
+// 자바의 연산자
+// : 산술 연산자, 대입 연산자, 비교 연산자, 논리 연산자, 삼항 연산자
+public class E_Operator {
+	public static void main(String[] args) {
+		
+//		1. 산술 연산자
+		
+//		덧셈 연산자 (+): 좌항에 우항을 더한 값을 반환
+		int addResult = 8 + 3;
+		
+//		뺄셈 연산자 (-): 좌항에 우항을 뺀 값을 반환
+		int minusResult = 8 - 3;
+		
+//		곱셈 연산자 (*): 좌항에 우항을 곱한 값을 반환
+		int multiResult = 8 * 3;
+		
+//		나눗셈 연산자(/): 좌항에 우항을 나눈 값을 반환
+//		: 나눈 결과의 몫을 저장
+		int divideResult = 8 / 3;
+		
+		System.out.println(addResult);
+		System.out.println(minusResult);
+		System.out.println(multiResult);
+		System.out.println(divideResult);
+		
+//		나머지 연산자(%): 좌항에 우항을 나눈 나머지를 반환
+//		8 = 3 * 2(몫) + 2(나머지)
+		int remainderResult2 = 8 % 3;
+		System.out.println(remainderResult2);
+		
+//		해당 수가 2의 배수인지를 확인
+//		: 해당 수를 2로 나누어서(%) 나머지가 0인 경우 확인 가능
+		
+//		2. 증감 연산자
+//		: '변수' 그 자신에 1 증가 또는 감소
+//		: 상수에는 증감 연산자 사용 X
+		final int NUMBER = 10;
+//		NUMBER++; - Error
+		
+//		증가 연산자 (++)
+//		: 연산자의 조항 혹은 우항의 값을 1 증가시킴
+		int integer = 10;
+		
+		System.out.println(++integer); // 11 (증가 O)
+// 		: 변수명 앞에 증가 연산자 사용 시 해당 변수를 즉각 증가
+		
+		System.out.println(integer++); // 11 (증가 X)
+//		: 변수명 뒤에 증가 연산자 사용 시 해당 변수를 다음 호출 시 증가
+		
+		System.out.println(integer); // 12
+		
+		integer++; // 12
+		integer++; // 13
+		++integer; // 15
+		System.out.println(++integer); // 16
+		
+//		감소 연산자 (--)
+//		: 연산자의 좌항 혹은 우항에 값을 1 감소시킴
+		integer = 10;
+		--integer; // 9 (즉각 감소)
+		integer--; // 9 (다음 호출 시 감소)
+		System.out.println(integer);
+	}
+}
