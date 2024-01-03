@@ -139,13 +139,7 @@ public class A_If {
 		
 		int x = 0;
 		int y = 0;
-//		참조 자료형
-//		: 변수에 직접적인 데이터X, 해당 데이터가 저장된 메모리 주소
-//		: 초기화하지 않고 사용할 경우 컴파일 오류 발생 가능
-//		: 기본 초기화 값 
-//			- null
-//			- 메모리상의 어떠한 데이터 객체도 담고 있지 않음.
-		String funcResult = null;
+		String funcResult;
 		
 		System.out.println("x값을 입력하세요.");
 		x = functionData.nextInt();

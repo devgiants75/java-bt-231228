@@ -139,13 +139,7 @@ public class A_If {
 		
 		int x = 0;
 		int y = 0;
-//		참조 자료형
-//		: 변수에 직접적인 데이터X, 해당 데이터가 저장된 메모리 주소
-//		: 초기화하지 않고 사용할 경우 컴파일 오류 발생 가능
-//		: 기본 초기화 값 
-//			- null
-//			- 메모리상의 어떠한 데이터 객체도 담고 있지 않음.
-		String funcResult = null;
+		String funcResult;
 		
 		System.out.println("x값을 입력하세요.");
 		x = functionData.nextInt();
@@ -157,18 +151,6 @@ public class A_If {
 //		x는 음수, y는 양수: 제2사분면
 //		x, y 음수: 제3사분면
 //		x는 양수, y는 음수: 제4사분면
-		
-		if (x > 0 && y > 0) {
-			funcResult = "제1사분면";
-		} else if (x < 0 && y > 0) {
-			funcResult = "제2사분면";
-		} else if (x < 0 && y < 0) {
-			funcResult = "제3사분면";
-		} else {
-			funcResult = "제4사분면";
-		}
-		
-		System.out.println("결과: " + funcResult);
 		
 	}
 
