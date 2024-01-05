@@ -1,0 +1,30 @@
+
+public class Git {
+
+	public static void main(String[] args) {
+		// Git
+		// : 버전 관리 소프트웨어(시스템)
+		// : 변경 사항 추적, 백업 및 보안, 협업 용이성
+		
+		// 1. 작업 디렉토리:
+		// : 작업 디렉토리는 현재 프로젝트의 파일들이 위치한 곳
+		
+		// 2. 변경 사항 스테이징:
+		// : 변경된 파일을 git add 명령어로 스테이징 영역에 추가
+		
+		// 3. local repository
+		// : 개인 PC에 저장되는 저장소(push)
+
+		// GitHub
+		// : Git을 사용하는 프로젝트를 지원하는 웹 호스팅 서비스
+		
+		// 4. remote repository
+		// : 다른 개발자와 공유하는 저장소(pull)
+		
+		// - git push와 git pull 명령어를 사용하여 로컬 리포지토리와 원격 리포지토리 간의 동기화
+		
+		// Git 설치
+		
+	}
+
+}
