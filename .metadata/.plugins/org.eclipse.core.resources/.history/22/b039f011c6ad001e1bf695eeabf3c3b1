@@ -1,0 +1,106 @@
+package d_Chapter03;
+
+// 배열
+
+// 1. 배열이란?
+// : 같은 타입의 여러 변수를 하나의 집합으로 다루는 것
+// : 같은 타입의 데이터를 연속적으로 저장하고 쉽게 관리 가능
+
+// '같은 타입'의 변수가 나열된 형태
+// : 배열은 '생성'하여 사용 (!= 변수는 '선언'하여 사용)
+
+public class A_Array01 {
+
+	public static void main(String[] args) {
+		// 변수: 선언하여 사용
+
+		int korean = 90;
+		int math = 70;
+		int english = 100;
+		
+		// 배열
+		// : 생성하여 사용 (new 연산자를 사용하여 생성)
+		
+		// 1. 배열의 선언 (생성한 배열을 담을 그릇)
+		// : 데이터타입[] 배열명;
+		// : 데이터타입 배열명[];
+		
+		// 정수형의 데이터를 담을 수 있는 배열
+		int[] array;
+		
+		// 2. 배열의 생성
+		// : new 데이터타입[배열의 길이]; - 동적 초기화
+		// : 실제 데이터가 저장되는 것이 아님
+		// : 데이터 배열이 저장된 첫 번째 메모리 주소가 저장
+		array = new int[3];
+		
+		// 배열을 선언하고 생성한 경우 모든 '요소'는 해당 데이터 타입의 기본값으로 초기화
+		// 문자열(''), 숫자형(0), 논리형(false)
+		
+		// '요소': 배열 내의 각각의 데이터
+		System.out.println(array); // [I@3d012ddd: 배열이 담긴 주소
+		
+		// 배열을 선언한 뒤 데이터 변경(삽입)
+		// : 배열 요소에 접근하기 위해서는 해당 요소의 인덱스를 이용
+		// : 배열명[인덱스번호] = 데이터;
+		
+		// '인덱스'
+		// : 배열의 각 요소는 인덱스라는 고유한 번호로 식별
+		// : 0부터 시작해서 배열의 크기보다 1이 작다
+		// ex) 길이가 7인 배열의 인덱스는 0부터 6까지
+		
+		System.out.println(array[0]);
+		System.out.println(array[1]);
+		System.out.println(array[2]);
+		
+//		System.out.println(array[3]); - Error
+		
+		// 3. 선언과 동시에 초기화 - 정적 초기화
+		
+		// : new 연산자를 사용한 배열 생성 시 길이 지정 X
+		// : 요소의 개수를 파악하여 배열의 길이로 자동 지정
+		
+		// a. 데이터타입[] 배열명 = new 데이터타입[] {요소1, 요소2, 요소3 ...}
+		int[] scoreList = new int[] {90, 70, 100};
+		System.out.println(scoreList[0]); // 배열명[인덱스]: 변수로 사용 가능
+		System.out.println(scoreList[1]);
+		System.out.println(scoreList[2]);
+		
+		// b. 데이터타입[] 배열명 = {요소1, 요소2, 요소3 ...}
+		char[] greet = {'h', 'e', 'l', 'l', 'o'};
+		System.out.println(greet[0]);
+		System.out.println(greet[1]);
+		System.out.println(greet[2]);
+		System.out.println(greet[3]);
+		System.out.println(greet[4]);
+
+		// 4. 배열의 길이(크기)
+		// : .length 속성으로 확인 가능
+		// : 마지막 요소의 인덱스는 배열 크기 - 1
+		// : 배열의 길이는 고정, 한 번 생성된 배열의 크기는 변경 불가
+		int[] myArray = {1, 4, 2, 6, 4, 7, 4, 7, 1, 2, 5, 3};
+		// 배열명.length
+		System.out.println("배열의 크기(길이): " + myArray.length);
+		
+		// 배열의 특징
+		// - 한 번 생성되면 크기 변경 X
+		// - 참조 타입: 메모리 주소가 할당
+		// - 배열의 모든 요소는 같은 자료형이어야 한다
+		
+		// 배열 내의 요소값 수정
+		// : 인덱스를 통해 접근하고 수정 가능
+		
+		// String타입 배열 생성
+		// : String타입의 기본값은 null
+		String[] fruits = new String[3];
+		System.out.println(fruits[0]);
+		
+		fruits[0] = "apple";
+		fruits[1] = "banana";
+		fruits[2] = "cherry";
+		System.out.println(fruits[0]);
+		System.out.println(fruits[1]);
+		System.out.println(fruits[2]);
+	}
+
+}
