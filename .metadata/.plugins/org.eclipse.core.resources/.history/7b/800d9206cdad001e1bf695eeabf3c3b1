@@ -65,7 +65,6 @@ public class E_NestedLoop {
 		// ***
 		// **
 		// *
-		System.out.println("======================");
 
         int rows = 5; // 별을 찍을 행의 수 (5행)
 
@@ -82,7 +81,8 @@ public class E_NestedLoop {
             System.out.println();
         }
 
-        System.out.println("======================");
+
+		
 		// 2.
 		//   *
 		//  ***

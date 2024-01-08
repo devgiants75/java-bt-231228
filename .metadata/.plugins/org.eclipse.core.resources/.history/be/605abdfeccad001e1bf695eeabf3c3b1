@@ -192,5 +192,7 @@ public class A_Array01 {
 			// : result[2] = original[3]
 			// [1, 2, 4]
 		}
+		
 	}
+
 }

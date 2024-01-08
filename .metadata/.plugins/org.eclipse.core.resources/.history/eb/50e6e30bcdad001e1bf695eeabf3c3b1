@@ -82,7 +82,8 @@ public class E_NestedLoop {
             System.out.println();
         }
 
-        System.out.println("======================");
+
+		
 		// 2.
 		//   *
 		//  ***

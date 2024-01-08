@@ -65,7 +65,6 @@ public class E_NestedLoop {
 		// ***
 		// **
 		// *
-		System.out.println("======================");
 
         int rows = 5; // 별을 찍을 행의 수 (5행)
 
@@ -82,18 +81,19 @@ public class E_NestedLoop {
             System.out.println();
         }
 
-        System.out.println("======================");
+
+		
 		// 2.
 		//   *
 		//  ***
 		// *****
-        int triangleRows = 3; // 삼각형의 높이 (행의 수)
+        int rows = 3; // 삼각형의 높이 (행의 수)
 
-        for (int i = 0; i < triangleRows; i++) {
+        for (int i = 0; i < rows; i++) {
             // 각 행에서 공백을 출력하는 반복문
             // 첫 번째 행에는 가장 많은 공백을 출력하고
         	// , 이후 각 행마다 공백이 하나씩 줄어듦
-            for (int j = triangleRows - i - 1; j > 0; j--) {
+            for (int j = rows - i - 1; j > 0; j--) {
                 System.out.print(" ");
             }
             
