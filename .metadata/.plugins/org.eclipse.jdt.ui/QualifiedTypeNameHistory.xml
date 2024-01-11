@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="e_Chapter04.GameCharacter"/>
 </qualifiedTypeNameHistroy>
