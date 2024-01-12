@@ -8,4 +8,6 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="e_Chapter04.GameCharacter"/>
+    <fullyQualifiedTypeName name="f_Chapter05.Student"/>
+    <fullyQualifiedTypeName name="g_Chapte06.Calculator"/>
 </qualifiedTypeNameHistroy>
