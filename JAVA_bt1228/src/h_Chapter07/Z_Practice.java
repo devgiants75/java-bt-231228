@@ -16,6 +16,5 @@ public class Z_Practice {
 	public static void main(String[] args) {
 		// 사람 인스턴스 3명 생성
 		// 각각 다른 생성자로 생성, 각 인스턴스에 대한 메서드 호출
-		
 	}
 }
