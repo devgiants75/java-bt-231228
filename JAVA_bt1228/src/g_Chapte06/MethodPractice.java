@@ -5,13 +5,13 @@ class BaseballPlayer {
 	// 인스턴스 변수
 	// : 선수의 이름(name), 타율(battingAverage), 홈런 수(homeRus);
 	// : 이름 - 문자열, 타율 - 실수, 홈런 수 - 정수
-	private String name;   // 선수의 이름
-	private double battingAverage; // 타율
-	private int homeRuns;  // 홈런 수
+	String name;   // 선수의 이름
+	double battingAverage; // 타율
+	int homeRuns;  // 홈런 수
 	
 	// 정적 변수
 	// : 생성된 선수의 총 수(playerCount) - 모든 인스턴스에서 공유
-	private static int playerCount = 0; // 생성된 선수의 총 수
+	static int playerCount = 0; // 생성된 선수의 총 수
 
 	// 생성자
 	// 생성자 - this
@@ -43,6 +43,6 @@ public class MethodPractice {
 		BaseballPlayer player2 = new BaseballPlayer("Ryu", 0.275, 15);
 		BaseballPlayer player3 = new BaseballPlayer("Kim", 0.375, 19);
 
-		System.out.println("총 생성된 선수의 수: " + BaseballPlayer.);
+		System.out.println("총 생성된 선수의 수: " + BaseballPlayer.playerCount);
 	}
 }

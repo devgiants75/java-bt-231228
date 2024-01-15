@@ -20,9 +20,7 @@ package g_Chapte06;
 // : - 코드를 더 명확하고 가독성 있게 작성 가능
 // 2. 코드의 재사용성이 높아짐
 // 3. 컴파일 시 타입 체크를 강화 - 올바른 매개변수 타입을 가진 메서드를 선택
-
-
-class Calculator {
+class Calculator1 {
 	int a, b;
 //	int x, y;
 	double x, y;
