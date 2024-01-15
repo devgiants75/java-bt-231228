@@ -1,7 +1,7 @@
 package g_Chapte06;
 
 // BaseballPlayer 클래스
-public class BaseballPlayer {
+class BaseballPlayer {
 	// 인스턴스 변수
 	// : 선수의 이름(name), 타율(battingAverage), 홈런 수(homeRus);
 	// : 이름 - 문자열, 타율 - 실수, 홈런 수 - 정수
@@ -32,6 +32,7 @@ public class BaseballPlayer {
 			battingAverage = newBattingAverage; // 타율 업데이트
 			homeRuns = newHomeRuns; // 홈런 수 업데이트
 	}
+}
 
 public class MethodPractice {
 
@@ -42,6 +43,6 @@ public class MethodPractice {
 		BaseballPlayer player2 = new BaseballPlayer("Ryu", 0.275, 15);
 		BaseballPlayer player3 = new BaseballPlayer("Kim", 0.375, 19);
 
-		System.out.println("총 생성된 선수의 수: " + playerCount);
+		System.out.println("총 생성된 선수의 수: " + BaseballPlayer.);
 	}
 }
