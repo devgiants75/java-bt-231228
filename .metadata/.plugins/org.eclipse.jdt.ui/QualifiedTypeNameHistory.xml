@@ -12,4 +12,6 @@
     <fullyQualifiedTypeName name="g_Chapte06.Calculator"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="h_Chapter07.Overriding"/>
+    <fullyQualifiedTypeName name="parentPackage.ParentClass"/>
+    <fullyQualifiedTypeName name="i_Chapter08.AccessExample"/>
 </qualifiedTypeNameHistroy>
