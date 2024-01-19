@@ -20,4 +20,11 @@
     <fullyQualifiedTypeName name="k_Chapter10.ExampleClass"/>
     <fullyQualifiedTypeName name="k_Chapter10.ExampleInterface2"/>
     <fullyQualifiedTypeName name="k_Chapter10.MobileApp"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Order.OrderDetail"/>
+    <fullyQualifiedTypeName name="l_Chapter11.PocketBall.PocketMonster"/>
+    <fullyQualifiedTypeName name="l_Chapter11.House.Furniture"/>
+    <fullyQualifiedTypeName name="l_Chapter11.City.CityPlan"/>
+    <fullyQualifiedTypeName name="l_Chapter11.OnlineShoppingMall"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Animal.Heart"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Car.Engine"/>
 </qualifiedTypeNameHistroy>
