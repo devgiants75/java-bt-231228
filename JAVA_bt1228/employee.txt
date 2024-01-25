@@ -1,0 +1,5 @@
+John,5000
+Jane,5500
+Peter,5200
+Lucy,6000
+David,4800
